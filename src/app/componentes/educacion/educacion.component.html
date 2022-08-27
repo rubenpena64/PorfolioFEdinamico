@@ -5,41 +5,23 @@
                 <div class="col-11 tit">
                     <H4>Educación</H4>
                 </div>
+               
                 <div class="col-1 align-self-center text-center crud">
                     <a href="#"><i class="bi bi-plus-square"></i></a>
                 </div>
-  
-                <div class="col-9">
-                    <p class="h5 mt-3">Lorem, ipsum dolor.</p>
-                    <p class="h6">1900-1900</p>
-                    <p class="descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate</p>
-                </div>
-                <div class="col-3 align-self-center text-end crud">
-                    <a href="#"><i class="bi bi-pencil"></i></a>
-                    <a href="#"><i class="bi bi-trash3"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-9">
-                    <p class="h5 mt-3">Lorem, ipsum dolor.</p>
-                    <p class="h6">1900-1900</p>
-                    <p class="descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate</p>
-                </div>
-                <div class="col-3 align-self-center text-end crud">
-                    <a href="#"><i class="bi bi-pencil"></i></a>
-                    <a href="#"><i class="bi bi-trash3"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-9">
-                    <p class="h5 mt-3">Lorem, ipsum dolor.</p>
-                    <p class="h6">1900-1900</p>
-                    <p class="descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate</p>
-                </div>
-                <div class="col-3 align-self-center text-end crud">
-                    <a href="#"><i class="bi bi-pencil"></i></a>
-                    <a href="#"><i class="bi bi-trash3"></i></a>
-                </div>
+                <li *ngFor="let educacion of mieducacion"> 
+                    <div class="row">
+                        <div class="col-9">
+                            <p class="h5 mt-3">{{educacion.anios}}</p>
+                           <p class="h6">{{educacion.titulo}}</p>
+                            <p class="descrip">{{educacion.descripcion}}</p>
+                        </div>
+                        <div class="col-3 align-self-center text-end crud">
+                            <a href="#"><i class="bi bi-pencil"></i></a>
+                            <a href="#"><i class="bi bi-trash3"></i></a>
+                        </div>
+                    </div>
+               </li> 
             </div>
         </div>
     </section>

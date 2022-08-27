@@ -8,12 +8,10 @@ import { GetdatosService } from 'src/app/servicios/getdatos.service';
 })
 export class EncabezadoComponent implements OnInit {
 
-  constructor(private datosPorfolio:GetdatosService) { }
+  constructor(private datosPorfolio: GetdatosService) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-    })  ;
+   
   }
 
 }

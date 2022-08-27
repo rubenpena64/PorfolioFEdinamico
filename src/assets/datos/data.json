@@ -1,0 +1,66 @@
+{
+    "acerca" : {
+        "quiensoy": "Poner quien soy",
+        "lugar":  "General Pacheco",
+        "Otros": "Lectura, fotografia"
+    },
+   
+    "skills": [
+        {
+            "nombre": "A",
+            "valor": 1
+        },
+        {
+            "nombre": "B",
+            "valor": 25
+        },
+        {
+            "nombre": "C",
+            "valor": 50
+        },
+        {
+            "nombre": "D",
+            "valor": 60
+        },
+        {
+            "nombre": "E",
+            "valor": 70
+        },
+        {
+            "nombre": "F",
+            "valor": 80
+        },
+        {
+            "nombre": "G",
+            "valor": 90
+        },
+        {
+            "nombre": "H",
+            "valor": 100
+        }
+    ],
+    "experiencia": [
+        {
+            "anios": "2000-2010",
+            "empresa": "Branko S.R.L.",
+            "puesto": "empleado"
+        },
+        {
+            "anios": "2010-2020",
+            "empresa": "A&L Integral Trade",
+            "puesto": "empleado2"
+        }
+    ],
+    "educacion": [
+        {
+            "titulo": "Tecnico electromecánico",
+            "anios": "1978 - 1983",
+            "descripcion": "secundario"
+        },
+        {
+            "titulo": "Tecnico electromecánico",
+            "anios": "1978 - 1983",
+            "descripcion": "secundario"
+        }
+    ]
+}

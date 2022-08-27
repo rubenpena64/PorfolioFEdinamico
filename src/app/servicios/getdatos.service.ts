@@ -9,7 +9,7 @@ export class GetdatosService {
 
   constructor(private http:HttpClient) { }
   obtenerDatos():Observable<any> {
-       return this.http.get('../assets/datos/data.json');
+       return this.http.get('./assets/datos/data.json');
   }
 
  

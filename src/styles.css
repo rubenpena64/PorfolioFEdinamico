@@ -107,59 +107,14 @@ header .btn {
 .skills .caja .tit,
 .desar .caja .tit {
     padding: 10px;
-
 }
-
+li{
+    list-style: none;
+}
 .descrip {
     font-size: 1.1em;
     font-weight: bolder;
     color: #777;
-}
-
-.skills .unskill {
-    width: 160px;
-    height: 160px;
-    position: relative;
-}
-
-.skills .unskill .outer {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.2),
-        -6px -6px 10px -1px rgba(0, 0, 0, 0.9);
-}
-
-.skills .unskill .inner {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px rgba(255, 255, 255, 0.3),
-        inset -4px -4px 4px -1px rgba(0, 0, 0, 0.9);
-}
-
-.skill {
-    font-size: medium;
-    font-weight: 500;
-    color: #ccc;
-    text-align: center;
-}
-
-circle {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 20px;
-    stroke-dasharray: 472;    
-    stroke-dashoffset: 306;
-}
-
-svg {
-    position: absolute;
-    top: 0;
 }
 
 .caja .post {
